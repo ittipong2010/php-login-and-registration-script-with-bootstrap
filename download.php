@@ -1,13 +1,7 @@
 <div id="overlay" class="overlay"></div>
 <div id="loading" class="loading"></div>
 <script type="text/javascript">
-<!-- Begin
-//window.onload=function(){
-//document.getElementById("loading").style.display="none";
-//document.getElementById("overlay").style.display="none";
-}
-// End -->
-</script>
+
 <?php
 if ($_SESSION["UserID"] == "")
 {
